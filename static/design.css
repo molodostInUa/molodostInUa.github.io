@@ -1,108 +1,107 @@
 .pleasebody {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .attention {
-    text-color: #a9131a;
+  text-color: #a9131a;
 }
 
 .whiteh1 {
-    font-size: 12pt;
-    color: #970e20;
+  font-size: 12pt;
+  color: #970e20;
 }
 
 h2 {
-    font-size: 15pt;
-    color: #970e20;
+  font-size: 15pt;
+  color: #970e20;
 }
 
 h3 {
-    font-size: 13pt;
+  font-size: 13pt;
 }
 
 .news_item {
-    border-bottom: 0;
-    margin-top: 25px;
-    padding-left: 15px;
-    padding-right: 10px;
-    overflow: hidden;
+  border-bottom: 0;
+  margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 10px;
+  overflow: hidden;
 }
 
 .redh1 {
-    border-bottom: 1px solid #ee9d05;
-    margin: 0;
-    margin-bottom: 30px;
-    font-weight: normal;
-    font-size: 15pt;
-    /*color: #970e20;*/
-    border-left: 0px solid #ee9d05;
-    padding: 2px;
-    padding-left: 5px;
-    overflow: hidden;
+  border-bottom: 1px solid #ee9d05;
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-size: 15pt;
+  /*color: #970e20;*/
+  border-left: 0px solid #ee9d05;
+  padding: 2px;
+  padding-left: 5px;
+  overflow: hidden;
 }
 
 h4 {
-    font-size: 10pt;
-    /*color: #970e20;*/
+  font-size: 10pt;
+  /*color: #970e20;*/
 }
 
 .newsimage {
-    float: left;
-    margin: 15px;
-    border: 0;
+  float: left;
+  margin: 15px;
+  border: 0;
 }
 
 .newstext {
-    margin-top: 3px;
-    font-size: 80%;
+  margin-top: 3px;
+  font-size: 80%;
 }
 
 .headinfo {
-    font-size: 15px;
-    line-height: 1.4;
-    position: relative;
-    padding: 5px 25px 6px;
-    text-align: center;
-    background: #6a6;
-    color: #fff;
+  font-size: 15px;
+  line-height: 1.4;
+  position: relative;
+  padding: 5px 25px 6px;
+  text-align: center;
+  background: #6a6;
+  color: #fff;
 }
 
 .sonar-wrapper {
-    height: 100%;
-    z-index: 100;
+  height: 100%;
+  z-index: 100;
 }
 
 /* Prevent scrollbars to appear when waves go out of bound */
 .sonar-wrapper {
-    position: relative;
-    z-index: 100;
-    overflow: hidden;
+  position: relative;
+  z-index: 100;
+  overflow: hidden;
 }
 
 /* The circle */
 .sonar-emitter {
-    position: relative;
-    margin: 32px auto;
-    width: 10px;
-    height: 10px;
-    border-radius: 9999px;
-    background-color: HSL(45, 100%, 50%);
-    z-index: 100;
-
+  position: relative;
+  margin: 32px auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background-color: HSL(45, 100%, 50%);
+  z-index: 100;
 }
 
 /* the 'wave', same shape and size as its parent */
 .sonar-wave {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 999px;
-    background-color: HSL(45, 100%, 50%);
-    opacity: 0;
-    z-index: 99;
-    pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  background-color: HSL(45, 100%, 50%);
+  opacity: 0;
+  z-index: 99;
+  pointer-events: none;
 }
 
 /*
@@ -110,32 +109,30 @@ h4 {
   NOTE: add browser prefixes where needed.
 */
 .sonar-wave {
-    animation: sonarWave 1s linear infinite;
+  animation: sonarWave 1s linear infinite;
 }
 
 @keyframes sonarWave {
-    from {
-        opacity: 0.9;
-    }
-    to {
-        transform: scale(5);
-        opacity: 0;
-    }
+  from {
+    opacity: 0.9;
+  }
+  to {
+    transform: scale(5);
+    opacity: 0;
+  }
 }
 
-
 .post-module {
-
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   z-index: 1;
   display: block;
-  background: #FFFFFF;
+  background: #ffffff;
   min-width: 300px;
   max-height: 450px;
-    max-width: 300px;
+  max-width: 300px;
   -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -156,7 +153,7 @@ h4 {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   transform: scale(1.1);
-  opacity: .6;
+  opacity: 0.6;
 }
 .post-module .thumbnail1 {
   background: #000000;
@@ -176,7 +173,7 @@ h4 {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   text-align: center;
   -webkti-box-sizing: border-box;
@@ -202,7 +199,7 @@ h4 {
 .post-module .post-content {
   position: absolute;
   bottom: -10px;
-  background: #FFFFFF;
+  background: #ffffff;
   width: 100%;
   padding: 10px;
   -webkti-box-sizing: border-box;
@@ -220,7 +217,7 @@ h4 {
   left: 0;
   background: #a9131a;
   padding: 10px 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -275,32 +272,42 @@ h4 {
 }
 
 .askimage {
-    margin-right: 10px;
-    float: left;
-    height: 90px;
-    width: 90px;
+  margin-right: 10px;
+  float: left;
+  height: 90px;
+  width: 90px;
 }
 
-#owl-carousel-3{
-    max-height: 90px;
-    float: right;
+#owl-carousel-3 {
+  max-height: 90px;
+  float: right;
 }
 
-.owl-item-3{
-    max-height: 80px;
+.owl-item-3 {
+  max-height: 80px;
 }
 
-.bb-notice{
-    font-size: 80%;
+.bb-notice {
+  font-size: 80%;
 }
 
-.article-bordered{
-    border: 1px solid #eeeeee;
-    padding: 10px;
-    margin: -10px -5px 25px -10px;
+.article-bordered {
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin: -10px -5px 25px -10px;
 }
+
+.article-img img {
+  height: 270px;
+  object-fit: cover;
+}
+
+.causes-img img {
+  height: 270px;
+  object-fit: cover;
+}
+
 #owl-carousel-3.owl-theme .owl-dots .owl-dot span {
-    width: 7px;
-    height: 7px;
-
+  width: 7px;
+  height: 7px;
 }
